@@ -1,0 +1,19 @@
+{
+  "name": "jikabao-static",
+  "version": "0.1.0",
+  "description": "kabao statick",
+  "main": "index.js",
+  "repository": "git@github.com:dnbsbyhf/jikabao-static.git",
+  "keywords": [
+    "jikabao"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "yyy"
+  },
+  "devDependencies": {
+    "gulp-less": "~1.2.3",
+    "gulp-watch":"~0.6.5",
+    "gulp": "~3.6.2"
+  }
+}
