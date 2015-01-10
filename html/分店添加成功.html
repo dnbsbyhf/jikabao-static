@@ -5,7 +5,7 @@
 	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	    <meta charset="UTF-8"/>
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <title>分店账号管理</title>
+	    <title>新增分店账号</title>
 	    <link href="../css/account.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
@@ -139,151 +139,20 @@
 		                </div>
 		                <div class="span10" role="main">
 							<h1 class="page-header">新增分店账号</h1>
-							<section class="s-layout">
-								<form class="form-inline" role="form">
-							      <div class="form-group">
-							        <label >关键字：</label>
-							        <input type="text" class="form-control m-l-10" placeholder="分店名，分店地址..">
-							      </div>
-							      <button type="submit" class="btn btn-default m-l-10">搜索</button>
-							    </form>
-							</section>
-							<h2 class="page-title">
-								查询结果
-							</h2>
-							<section class="s-layout">
-								<table class="table table-hover">
-							      <thead>
-							        <tr>
-							          <th>地区</th>
-							          <th>分店名</th>
-							          <th>分店地址</th>
-							          <th>分店电话</th>
-								          <th>账号</th>
-							          <th>密码</th>
-							          <th>操作</th>
-							        </tr>
-							      </thead>
-							      <tbody>
-							        <tr>
-							          <td>上海市长宁区</td>
-							          <td>85度C(中山公园店)</td>
-							          <td>安化路492号</td>
-							          <td>028-043944</td>
-							          <td>1560190456</td>
-							          <td>12345</td>
-							          <td>
-							          	<button type="button" class="btn btn-success">编辑</button>
-							          	<button type="button" class="btn btn-danger">删除</button>
-							          </td>
-							        </tr>
-							        <tr>
-							          <td>上海市长宁区</td>
-							          <td>85度C(中山公园店)</td>
-							          <td>安化路492号</td>
-							          <td>028-043944</td>
-							          <td>1560190456</td>
-							          <td>12345</td>
-							          <td>
-							          	<button type="button" class="btn btn-success">编辑</button>
-							          	<button type="button" class="btn btn-danger">删除</button>
-							          </td>
-							        </tr>
-
-							      </tbody>
-							    </table>
-							</section>
-							<nav class="f-r ">
-								<ul class="pagination f-l">
-							        <li><a href="#">«</a></li>
-							        <li  class="active"><a href="#">1</a></li>
-							        <li><a href="#">2</a></li>
-							        <li>
-							        	<span href="#">...</span>
-							        </li>
-							        <li><a href="#">4</a></li>
-							        <li><a href="#">5</a></li>
-							        <li><a href="#">»</a></li>
-							    </ul>
-							    <div class="pager m-l-10">
-							    	<form class="form-inline" role="form">
-								      <div class="form-group">
-								        <label >页：</label>
-								         <select class="form-control" >
-									    	<option>1</option>
-									    	<option>2</option>
-									    	<option>3</option>
-									    </select>
-								      </div>
-								    </form>
-							    </div>
-							</nav>
+							<div class="alert alert-success m-b-60" role="alert">
+						      已成功增加了<strong>2</strong>个分店账号，请在分店账号管理中进行查看
+						    </div>
+						    <div class="alert alert-danger m-b-60" role="alert">
+						      失败
+						    </div>
+						    <div class="highlight">
+					    		<button type="submit" class="btn btn-primary">完成</button>
+					    	</div>
 		                </div>
 		            </div>
 		        </div>
 		    </div>
 		</div>
-		<div class="modal" style="position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: 1; display: block;">
-	      <div class="modal-dialog w-800">
-	        <div class="modal-content">
-	          <div class="modal-header">
-	            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-	            <h4 class="modal-title">编辑分店</h4>
-	          </div>
-		          <div class="modal-body">
-		          	<div class="alert alert-danger alert-dismissible fade in" role="alert">
-				      <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-				      <p>地区不能为空</p>
-				    </div>
-		          	<form class="form-inline " role="form">
-				      <div class="form-group m-r-10 w-80">
-				        <label>地区</label>
-				      </div>
-				      <div class="form-group m-r-10  w-80">
-				        <label>分店名</label>
-				      </div>
-				      <div class="form-group m-r-10  w-150">
-				        <label>分店地址</label>
-				      </div>
-				      <div class="form-group m-r-10 w-120">
-				        <label>分店电话</label>
-				      </div>
-				      <div class="form-group m-r-10  w-120">
-				        <label>账号</label>
-				      </div>
-				      <div class="form-group  m-r-10 w-120">
-				        <label>密码</label>
-				      </div>
-				    </form>
-	          		<form class="form-inline m-t-20" role="form">
-				      <div class="form-group">
-				        <input type="text" class="form-control m-r-10 w-80" value="上海市">
-				      </div>
-				      <div class="form-group">
-				        <input type="text" class="form-control m-r-10 w-80" value="中山公园点">
-				      </div>
-				      <div class="form-group">
-				        <input type="text" class="form-control m-r-10 w-150" value="安化路492号">
-				      </div>
-				      <div class="form-group">
-				        <input type="text" class="form-control m-r-10 w-120" value="028-232333232">
-				      </div>
-				      <div class="form-group">
-				        <input type="text" class="form-control m-r-10 w-120" value="dfdasfdsfdfs">
-				      </div>
-				      <div class="form-group">
-				        <input type="text" class="form-control m-r-10 w-120" value="432dsf">
-				      </div>
-				    </form>
-	          	</div>
-		        <div class="modal-footer">
-		        	<button type="button" class="btn btn-primary">确认</button>
-		            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-		            
-		        </div>
-	        </div><!-- /.modal-content -->
-	      </div><!-- /.modal-dialog -->
-	  	</div>
 		<script src="../js/comm/bootstrap.js"></script>
 	</body>
 </html>

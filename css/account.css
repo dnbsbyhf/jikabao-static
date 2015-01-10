@@ -7631,11 +7631,17 @@ body {
 .w-80 {
   width: 80px!important;
 }
+.w-120 {
+  width: 120px!important;
+}
 .w-150 {
   width: 150px!important;
 }
 .w-200 {
   width: 200px!important;
+}
+.w-800 {
+  width: 800px;
 }
 .city-list {
   list-style: none;
